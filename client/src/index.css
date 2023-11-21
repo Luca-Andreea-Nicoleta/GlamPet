@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Great+Vibes&family=Poiret+One&family=Sacramento&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Great+Vibes&family=Poiret+One&family=Poppins:wght@300;400;500&family=Sacramento&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  margin: auto;
+}
+
+.text-description {
+  font-size: 15px;
+}
+.larger-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-box {
+    display: none;
+  }
+}
